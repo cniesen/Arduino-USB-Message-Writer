@@ -13,7 +13,7 @@ const unsigned long ledOffTime = 120;
 const unsigned long ledPause = 800;
 
 // ---------- Typing Control ----------
-const PROGMEM char message[] = "Hello World!";
+const char message[] = "Hello World!";
 int charIndex = -1;  // -1 = idle
 
 unsigned long typeTimer = 0;
